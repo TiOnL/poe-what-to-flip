@@ -75,6 +75,20 @@ export const comparisons = () => {
           "Nook's Crown",
         ],
       },
+      {
+      name: "Pure Chayula  (The Eye of Terror)",
+      base: ["Chayula's Pure Breachstone"],
+      compare: [
+        "The Eye of Terror",
+        "The Eye of Terror",
+        "The Eye of Terror",
+        "The Eye of Terror",
+        "The Eye of Terror",
+        "The Eye of Terror",
+        "The Eye of Terror",
+        "The Eye of Terror",
+      ],
+    },
     ],
     "Fated uniques vs. their base + prophecy": [
       {
