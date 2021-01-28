@@ -55,6 +55,23 @@ export const comparisons = () => {
         ],
       },
       {
+        name: "The Saint's Treasure (2x Exalted Orb)",
+        base: ["Exalted Orb", "Exalted Orb"],
+        compare: [
+          "The Saint's Treasure",
+          "The Saint's Treasure",
+          "The Saint's Treasure",
+          "The Saint's Treasure",
+          "The Saint's Treasure",
+
+          "The Saint's Treasure",
+          "The Saint's Treasure",
+          "The Saint's Treasure",
+          "The Saint's Treasure",
+          "The Saint's Treasure",
+        ],
+      },
+      {
         name: "Abandoned Wealth (3x Exalted Orb)",
         base: ["Exalted Orb", "Exalted Orb", "Exalted Orb"],
         compare: [
@@ -87,6 +104,25 @@ export const comparisons = () => {
         "The Eye of Terror",
         "The Eye of Terror",
         "The Eye of Terror",
+      ],
+    },
+    {
+      name: "The Sephirot (10x Divine Orb )",
+      base: ["Divine Orb", "Divine Orb", "Divine Orb", "Divine Orb", "Divine Orb", "Divine Orb", "Divine Orb", "Divine Orb", "Divine Orb", "Divine Orb",],
+      compare: [
+        "The Sephirot",
+        "The Sephirot",
+        "The Sephirot",
+        "The Sephirot",
+        "The Sephirot",
+
+        "The Sephirot",
+        "The Sephirot",
+        "The Sephirot",
+        "The Sephirot",
+        "The Sephirot",
+
+        "The Sephirot",
       ],
     },
     ],
