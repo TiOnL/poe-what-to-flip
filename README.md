@@ -10,7 +10,7 @@ https://codesandbox.io/s/github/5k-mirrors/poe-what-to-flip
 
 An editor where you can see the app (on the right) and edit the code (on the left):
 
-https://codesandbox.io/s/github/5k-mirrors/poe-what-to-flip
+https://codesandbox.io/s/github/TiOnL/poe-what-to-flip
 
 - Wait a bit to let the data load.
 - Extend [`config.js`](src/functions/config.js) with any custom comparison.
