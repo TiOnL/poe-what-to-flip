@@ -76,7 +76,7 @@ export const comparisons = () => {
         ],
       },
       {
-      name: "Pure Chayula  (The Eye of Terror)",
+      name: "The Eye of Terror (Pure Chayula Breachstone)",
       base: ["Chayula's Pure Breachstone"],
       compare: [
         "The Eye of Terror",
