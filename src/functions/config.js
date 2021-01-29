@@ -185,7 +185,19 @@ export const comparisons = () => {
       ],
       show_profit_per_trade:true,
     },
-
+    {
+      name: "The Damned (Soul Ripper Quartz Flask)",
+      base: ["Soul Ripper"],
+      compare: [
+        "The Damned",
+        "The Damned",
+        "The Damned",
+        "The Damned",
+        "The Damned",
+        "The Damned",
+      ],
+      show_profit_per_trade:true,
+    },
     ],
     "Fated uniques vs. their base + prophecy": [
       {
