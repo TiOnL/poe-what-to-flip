@@ -130,6 +130,40 @@ export const comparisons = () => {
       ],
       show_profit_per_trade:true,
     },
+    {
+      name: "Underground Forest (10x Awakened Sextant )",
+      base: ["Awakened Sextant", "Awakened Sextant", "Awakened Sextant", "Awakened Sextant", "Awakened Sextant", "Awakened Sextant", "Awakened Sextant", "Awakened Sextant", "Awakened Sextant", "Awakened Sextant",],
+      compare: [
+        "Underground Forest",
+        "Underground Forest",
+        "Underground Forest",
+        "Underground Forest",
+      ],
+      show_profit_per_trade:true,
+    },
+    {
+      name: "Hunter's Reward (The Taming Prismatic Ring)",
+      base: ["The Taming"],
+      compare: [
+        "Hunter's Reward",
+        "Hunter's Reward",
+        "Hunter's Reward",
+      ],
+      show_profit_per_trade:true,
+    },
+    {
+      name: "Reckless Ambition (Omeyocan Boots)",
+      base: ["Omeyocan"],
+      compare: [
+        "Reckless Ambition",
+        "Reckless Ambition",
+        "Reckless Ambition",
+        "Reckless Ambition",
+        "Reckless Ambition",
+        "Reckless Ambition",
+      ],
+      show_profit_per_trade:true,
+    },
     ],
     "Fated uniques vs. their base + prophecy": [
       {
