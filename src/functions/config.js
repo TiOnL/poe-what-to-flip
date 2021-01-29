@@ -164,6 +164,28 @@ export const comparisons = () => {
       ],
       show_profit_per_trade:true,
     },
+    {
+      name: "The Spark and the Flame (Berek's Respite)",
+      base: ["Berek's Respite"],
+      compare: [
+        "The Spark and the Flame",
+        "The Spark and the Flame",
+      ],
+      show_profit_per_trade:true,
+    },
+    {
+      name: "The Escape (Seven-League Step)",
+      base: ["Seven-League Step"],
+      compare: [
+        "The Escape",
+        "The Escape",
+        "The Escape",
+        "The Escape",
+        "The Escape",
+      ],
+      show_profit_per_trade:true,
+    },
+
     ],
     "Fated uniques vs. their base + prophecy": [
       {
