@@ -53,6 +53,7 @@ export const comparisons = () => {
           "The Hoarder",
           "The Hoarder",
         ],
+        show_profit_per_trade:true,
       },
       {
         name: "The Saint's Treasure (2x Exalted Orb)",
@@ -70,6 +71,7 @@ export const comparisons = () => {
           "The Saint's Treasure",
           "The Saint's Treasure",
         ],
+        show_profit_per_trade:true,
       },
       {
         name: "Abandoned Wealth (3x Exalted Orb)",
@@ -81,6 +83,7 @@ export const comparisons = () => {
           "Abandoned Wealth",
           "Abandoned Wealth",
         ],
+        show_profit_per_trade:true,
       },
       {
         name: "Nook's Crown (Elder Bone Helmet ilvl100)",
@@ -105,6 +108,7 @@ export const comparisons = () => {
         "The Eye of Terror",
         "The Eye of Terror",
       ],
+      show_profit_per_trade:true,
     },
     {
       name: "The Sephirot (10x Divine Orb )",
@@ -124,6 +128,7 @@ export const comparisons = () => {
 
         "The Sephirot",
       ],
+      show_profit_per_trade:true,
     },
     ],
     "Fated uniques vs. their base + prophecy": [
