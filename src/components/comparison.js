@@ -5,6 +5,7 @@ import { useFindItems } from "../contexts/items";
 import { isDefined } from "../functions/utils";
 
 export const Comparison = ({ selectedLeague, comparison }) => {
+
   const useCompareText = (baseNames, compareNames) => {
     const baseItems = useFindItems(selectedLeague, baseNames);
     const compareItems = useFindItems(selectedLeague, compareNames);
@@ -39,10 +40,18 @@ export const Comparison = ({ selectedLeague, comparison }) => {
   const ComparisonText = () => {
     let text = `${comparison.name}: `;
 
-    text += `${useCompareText(
+    let profit = String(useCompareText(
       comparison.base,
       comparison.compare
-    )} chaos profit`;
+    ));
+    
+    if (comparison.show_profit_per_trade && !isNaN(parseFloat(profit))) {
+      let tradeCount = 1 + comparison.compare.length;
+      let profitPerTrade = parseFloat(profit) / tradeCount;
+      profit += ` (${profitPerTrade.toFixed(1)}/trade)`;
+    };
+
+    text += `${profit} chaos profit`;
 
     text += useCostText(comparison.compare);
 
